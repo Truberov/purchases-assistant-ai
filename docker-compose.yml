@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  assistant:
+    build: .
+    command: python3 -m assistant
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./assistant:/code/assistant
+    restart: always

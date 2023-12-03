@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+starlette
+pydantic
+elasticsearch
+tiktoken
+gigachain
+sentence-transformers
+pydantic-settings
